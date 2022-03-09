@@ -15,6 +15,14 @@ namespace learnEntities
         public Form1()
         {
             InitializeComponent();
+            kiettest();
+        }
+
+
+        public void kiettest()
+        {
+            string hello = "xin chao";
+            MessageBox.Show(hello);
         }
     }
 }
